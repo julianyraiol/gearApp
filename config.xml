@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/projeto" version="1.0.0" viewmodes="maximized">
+    <access origin="*" subdomains="true"/>
+    <tizen:application id="tli35EaNZ5.projeto" package="tli35EaNZ5" required_version="3.0"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <feature name="tizen.org/feature/humanactivitymonitor"/>
+    <feature name="tizen.org/feature/sensor.accelerometer"/>
+    <feature name="tizen.org/feature/network.internet"/>
+    <icon src="icon.png"/>
+    <name>projeto</name>
+    <tizen:privilege name="http://developer.samsung.com/tizen/privilege/accessoryprotocol"/>
+    <tizen:privilege name="http://tizen.org/privilege/healthinfo"/>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:privilege name="http://tizen.org/privilege/power"/>
+    <tizen:profile name="wearable"/>
+</widget>
